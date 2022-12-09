@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f5fa81351.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav class="transparent">
+        <img src="images/logo1.jpg">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div> 
+      <div id="home">
+        <div class="container">
+          <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi, I'm <span>Rochelle</span><br>Salazar from Laguna</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <ul id="slide-out" class="sidenav">
+    <div class="pink darken-3 background">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </div>
+  </ul>
+  <div class="fixed-action-btn">
+    <a class="btn-floating btn-large pink lighten-1">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li><a href="#home" class="btn-floating red"><i class="material-icons">home</i></a></li>
+      <li><a href="#about" class="btn-floating yellow darken-1"><i class="material-icons"><i class="fa-regular fa-address-card"></i></i></a></li>
+      <li><a href="#services" class="btn-floating green"><i class="material-icons"><i class="fa-solid fa-user-gear"></i></i></a></li>
+      <li><a href="#contact" class="btn-floating blue"><i class="material-icons">contacts</i></a></li>
+    </ul>
+  </div>
+   
+<!---- about ---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/bg4.jpg">
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>I am flexible, reliable and possess excellent time keeping skills. I am an enthusiastic, self-motivated, reliable, responsible and hard working person. I am a mature team worker and adaptable to all challenging situations. I am able to work well both in a team environment as well as using own initiative.I am outgoing, dedicated, and open-minded. I get across to people and adjust to changes with ease. I believe that a person should work on developing their professional skills and learning new things all the time. Currently, I am looking for new career opportunities.</p>
+              
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                  <li><span>Web Development</span><br>Web app Development</li>
+                  <li><span>App Development</span><br>Building Android/iOS App</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2022 - Current</span><br>Creative Web Design Training at Telecall Institute of Technology Inc.</li>
+                  <li><span>2012 - 2013</span><br>Final Visual Inspector at Device Dynamic Asia Philippines</li>
+                  <li><span>2012 - 2012</span><br>Legal Secretary at Punzalan Faustino Punzalan Marasigan & Associates Law Offices</li>
+                  <li><span>2005 - 2007</span><br>Material Handler at Philips Semiconductor Inc.</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2022</span><br>Creative Web Design at Telecall Institute of Technology Inc.</li>
+                  <li><span>2016</span><br>Tesda<br>Automotive<br>Bread and Pastry<br>Contact Center Services</li>
+                  <li><span>2005</span><br>Bachelor of Science in Industrial Engineering at Colegio de San Juan de Letran-Calamba City</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="height: 500px"></div>
+      
+      <!---- services ---->
+            <div id="services">
+              <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                  <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Works on the appearance, layout, and, in some cases, content of a website. Appearance, for instance, relates to the colors, font, and images used. Layout refers to how information is structured and categorized. A good web design is easy to use, aesthetically pleasing, and suits the user group and brand of the website.</p>
+                    <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>UX design involves managing the user journey as they interact with a product or service, while UI design focuses on the actual construction of that product or service's interface.</p>
+                    <a href="#">Learn more</a>
+                  </div>
+                  <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>App design combines the user interface (UI) and user experience (UX). While UI lends itself to the overall style of the app (including the colors, fonts, and general look and feel), UX focuses on the actual functionality and usability.</p>
+                    <a href="#">Learn more</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="height: 500px"></div>
+      
+      <!---- contact ---->
+            <div id="contact">
+              <div class="container">
+                <div class="row">
+                  <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rochelle.salazar0429@yahoo.com</p>
+                    <p><i class="fa-solid fa-mobile"></i>09053621397</p>
+                    <div class="social-icons">
+                      <a href="https://facebook.com/rochelle.salazar"><i class="fa-brands fa-facebook"></i></a>
+                      <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                      <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <br><br>
+                    <a href="images/Cv.jpg" download class="btn btn2">Download Cv</a>
+                  </div>
+                  
+                  <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="Email" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                      <button type="submit" class="pink lighten-1 btn">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <!---- footer ---->
+            <footer class="page-footer grey darken-3"> 
+              <div class="footer-copyright">
+                <div class="container">
+                © 2022 Designed by Rochelle Salazar. Made by <i class="fa-regular fa-heart red darken-3".></i>
+                <a class="grey-text text-lighten-4 right" href="#!"></a>
+                </div>
+              </div>
+            </footer>
+          </div>
+          <div style="height: 50px"></div>
+          
+            
+            <!-- Jquery CDN -->
+           <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+           integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+           crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+          <!-- Compiled and minified JavaScript -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+          
+          <script>
+              $(document).ready(function(){
+          // ScrollSpy Init
+           $('.scrollspy').scrollSpy({
+               throttle: 1000,
+               scrollOfset: 200
+           });
+           // Sidenav Init
+           $('.sidenav').sidenav({
+               edge: 'right'
+           });
+           $('.fixed-action-btn').floatingActionButton();
+           });   
+          
+          </script>
+          <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            
+            function opentab(tabname){
+              for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+              }
+              for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+              }
+              event.currentTarget.classList.add("active-link");
+              document.getElementById(tabname).classList.add("active-tab");
+            }
+           
+          </script>
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyvzNdShc84HZmz_kwSCv6Qp-bdvah0lOSOXeecGhrY2Gctd1U2ZiLc1wPPTwsQ2Rjs/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                  msg.innerHTML = "Message sent successfully"
+                  setTimeout (function(){
+                    msg.innerHTML = ""
+                  },5000)
+                  form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+          </body>
+          </html>
+      
